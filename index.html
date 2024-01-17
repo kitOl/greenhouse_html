@@ -46,5 +46,77 @@
         </div>
       </div>
     </nav>
+
+    <header class="header">
+      <img src="./img/header-img.jpg" alt="Header Image" class="header__img" />
+      <div class="container">
+        <div class="header__content">
+          <div class="header__desc">FIND YOUR BEST HOUSE</div>
+          <h1 class="header__title">
+            Buy And Sell Your Property Without Commissions
+          </h1>
+          <div class="header__text">
+            <p>
+              Solar is a clean and safe energy source that converts sunlight
+              into electricity for homes and businesses.
+            </p>
+          </div>
+        </div>
+        <div class="header__form">
+          <form class="form">
+            <div class="select select--city">
+              <select class="select__real" name="Location" id="selectCity">
+                <option value="Japan, Tokyo" selected>Japan, Tokyo</option>
+                <option value="Serbia, Saraevo">Serbia, Saraevo</option>
+                <option value="England, London">England, London</option>
+                <option value="Russia, Moscow">Russia, Moscow</option>
+                <option value="France, Paris">France, Paris</option>
+              </select>
+
+              <div class="select__title">Location</div>
+              <div class="select__value">Japan, Tokyo</div>
+
+              <ul class="select__list"></ul>
+            </div>
+
+            <div class="select">
+              <select class="select__real" name="Property" id="selectProperty">
+                <option value="Duplex" selected>Duplex</option>
+                <option value="House">House</option>
+                <option value="Flat">Flat</option>
+              </select>
+
+              <div class="select__title">Propery Type</div>
+              <div class="select__value">Duplex</div>
+
+              <ul class="select__list"></ul>
+            </div>
+
+            <div class="select">
+              <select class="select__real" name="Price" id="selectPrice">
+                <option value="$125.000" selected>$125.000</option>
+                <option value="$250.000">$250.000</option>
+                <option value="$500.000">$500.000</option>
+                <option value="$1.000.000">$1.000.000</option>
+              </select>
+
+              <div class="select__title">Max Price</div>
+              <div class="select__value">$125.000</div>
+
+              <ul class="select__list"></ul>
+            </div>
+            <!--
+            <div class="select">
+              <div class="select__title">Max Price</div>
+              <div class="select__value">$125.000</div>
+            </div>
+             -->
+
+            <button class="btn__form">Find House</button>
+          </form>
+        </div>
+      </div>
+    </header>
+    <script src="./js/main.js"></script>
   </body>
 </html>
