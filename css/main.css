@@ -314,6 +314,11 @@ body {
   background: #fff;
 }
 
+.list__card-product-item:hover {
+  box-shadow: 0px 17px 60px -7px rgba(35, 37, 84, 0.5);
+  transition: 0.2s ease-in;
+}
+
 .card-product__img {
   width: 64px;
   height: 64px;
@@ -360,4 +365,94 @@ body {
 .card-product__learn-more:hover {
   font-weight: 600;
   transition: 0.2s ease-in;
+}
+
+.subscribe {
+  padding: 100px 0;
+}
+
+.subscribe__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 80px 0;
+  min-height: 413px;
+  background: #faf5f1;
+  text-align: center;
+}
+
+.subscribe-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 587px;
+}
+
+.subscribe__title {
+  min-width: 564px;
+  color: #010101;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px; /* 125% */
+  letter-spacing: -0.2px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+
+.subscribe__text {
+  max-width: 397px;
+  color: #656361;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8; /* 28.8px */
+  margin-bottom: 48px;
+}
+
+.subscribe__form {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 587px;
+  height: 72px;
+  padding: 8px 8px 8px 24px;
+  flex-shrink: 0;
+  border-radius: 1000px;
+  border: 1px solid #d4cbc4;
+  background-color: #fff;
+}
+
+.subscribe__form:hover {
+  box-shadow: 0px 17px 60px -7px rgba(84, 81, 35, 0.5);
+  /* box-shadow: 0px 17px 60px -7px rgba(35, 37, 84, 0.5); */
+  transition: 0.2s ease-in;
+}
+
+.subscribe__input::placeholder {
+  color: #8b7563;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.input__marker {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+
+.subscribe__input {
+  margin-right: 16px;
+}
+
+.btn-subscribe {
+  margin-left: auto;
+  padding: 18px 32px;
+  border-radius: 1000px;
+  background: #0165c3;
+  color: #fff;
+
+  font-size: 16px;
+  font-weight: 400;
 }
