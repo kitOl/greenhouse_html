@@ -250,3 +250,41 @@ body {
   font-weight: bold;
   color: #0165c3;
 }
+
+.partners {
+  padding: 150px 0 100px;
+}
+
+.section-header {
+  text-align: center;
+}
+
+.section-header__desc {
+  color: #0165c3;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.36px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.section-header__title {
+  color: #010101;
+  font-size: 45px;
+  font-weight: 400;
+  letter-spacing: -0.225px;
+  margin-bottom: 25px;
+}
+
+.section-header__text {
+  color: #656361;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.partners__logos {
+  padding: 25px 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
